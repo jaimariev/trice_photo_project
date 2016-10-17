@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   
   function imageSlide() {
    var curDiv = $('#imgDiv div.current');
    var nextDiv = curDiv.next();
