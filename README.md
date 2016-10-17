@@ -1,1 +1,1 @@
-Creating a website for a Trice Photography.
+Creating a website for Trice Photography.
