@@ -1,7 +1,77 @@
+
+
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: "Crushed", cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#mainContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.main__header {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+
+.header__img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.nav__bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__img {
+  width: 400px;
+  height: 80px;
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+
+.nav__bar ul {
+  line-height: 70px;
+  padding: 0;
+}
+
+.nav__bar li {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  float: left;
+  margin-right: 60px;
+} 
+
+.nav__bar li:hover {
+  cursor: pointer;
+}
+
+
+
+
 
