@@ -27,14 +27,27 @@ a {
 
 .main__header {
   width: 100%;
+  height: 650px;
+  margin: auto;
+}
+
+#imgDiv img {
+  width: 100%;
   height: 600px;
   margin: auto;
 }
 
-.header__img {
-  width: 100%;
-  height: 100%;
-  margin: auto;
+#imgDiv div {
+  position: absolute;
+  z-index: 0;
+}
+
+#imgDiv div.previous {
+  z-index: 1;
+}
+
+#imgDiv div.current {
+  z-index: 2;
 }
 
 .nav__bar {
@@ -64,12 +77,19 @@ a {
   padding-left: 10px;
   font-size: 20px;
   float: left;
-  margin-right: 60px;
+  margin-right: 40px;
 } 
 
 .nav__bar li:hover {
   cursor: pointer;
 }
+
+.nav__bar i {
+  font-size: 50px;
+  position: relative;
+  top: 10px;
+}
+
 
 
 
